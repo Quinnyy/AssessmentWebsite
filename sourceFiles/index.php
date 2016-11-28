@@ -1,6 +1,5 @@
 <?php
 include 'master.php';
-require 'master.php';
 ?>
 
 <!DOCTYPE html>
