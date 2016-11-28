@@ -18,7 +18,7 @@ Discover:
         </p>
         <ul>
             <li> Clubs</li>
-            <li> Healthy Living</li>
+            <li> HealthyLiving</li>
             <li> Local Trails #######</li>
         </ul>
     </div>
