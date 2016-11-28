@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head runat = "server">
-    <link rel="shortcut icon" type="image/x-icon" href="../Images/765-default-avatar.png" />
     <title>
         Student Profile
     </title>
