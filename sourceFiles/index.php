@@ -5,7 +5,7 @@ require 'master.php';
 
 <!DOCTYPE html>
 <html lang="en">
-<link href="../CSS/masterStyle.css?v={0}" rel="stylesheet" />
+<link href="master.css" rel="stylesheet" />
 
 <head>
     <meta charset="UTF-8">

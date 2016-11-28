@@ -8,7 +8,7 @@
     </title>
 
 
-    <link href="../CSS/NavbarMaster.css?v={0}" rel="stylesheet" />
+    <link href="NavbarMaster.css" rel="stylesheet" />
 
 </head >
 
