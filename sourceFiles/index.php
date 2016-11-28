@@ -18,8 +18,8 @@ Discover:
         </p>
         <ul>
             <li> Clubs</li>
-            <li> Living</li>
-            <li> Trails</li>
+            <li> HealthyLiving</li>
+            <li> LocalTrails</li>
         </ul>
     </div>
 </div>
