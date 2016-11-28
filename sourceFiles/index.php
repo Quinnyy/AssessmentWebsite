@@ -19,7 +19,7 @@ Discover:
         <ul>
             <li> Clubs</li>
             <li> Healthy Living</li>
-            <li> Local Trails </li>
+            <li> Local Trails Maps </li>
         </ul>
     </div>
 </div>
