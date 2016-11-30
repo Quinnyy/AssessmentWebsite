@@ -15,7 +15,7 @@ body {
 .textD {
     font-size: 30px;
     line-height: 25px;
-    position:absolute;
+    position:fixed;
     display: inline-block;
     top: 10%;
     left: 50%;
