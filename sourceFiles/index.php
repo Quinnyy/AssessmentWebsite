@@ -13,7 +13,7 @@ include 'master.php';
 <body>
 
 <div class="textD" style="background-color: #269abc">
-    Is this the text you are looking for Jamie??
+    Is this the text you are looking for Jamie???
 </div>
 
 <div class="welcome">
