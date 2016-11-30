@@ -13,7 +13,7 @@ include 'master.php';
 <body>
 
 <div class="textD" style="background-color: #269abc">
-    TEST TEXT
+    TEST TEXT1
 </div>
 
 <div class="welcome">
