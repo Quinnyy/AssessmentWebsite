@@ -18,8 +18,7 @@ body {
     position:absolute;
     height: 100px;
     display: inline-block;
-    top: 25%;
-    left: 50%;
+    top: 0;
 
 }
 
