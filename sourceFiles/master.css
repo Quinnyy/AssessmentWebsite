@@ -12,6 +12,11 @@ body {
     background-size: cover;
 }
 
+.textD {
+    position:fixed;
+    top:0;
+}
+
 .welcome {
     font-size: 57.6px;
     line-height: 64px;

@@ -11,6 +11,11 @@ include 'master.php';
     <title></title>
 </head>
 <body>
+
+<div class="textD" style="background-color: #269abc">
+    TEST TEXT
+</div>
+
 <div class="welcome">
     <div class="visible">
         <p>
