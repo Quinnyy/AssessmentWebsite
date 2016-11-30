@@ -17,7 +17,7 @@ body {
     line-height: 25px;
     position:absolute;
     height: 100px;
-    width: 100%;
+    display: inline-block;
     top: 25%;
     left: 50%;
 
