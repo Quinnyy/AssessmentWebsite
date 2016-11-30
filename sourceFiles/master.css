@@ -18,13 +18,13 @@ body {
     position:fixed;
     height: 50px;
     width: 50px;
-    top: 0;
+    top: 0%;
     left: 50%;
 
 }
 
 .welcome {
-    font-size: 57.6px;
+    font-size: 30px;
     line-height: 64px;
     font-family: 'Muli';
     color: #ecf0f1;
