@@ -15,10 +15,10 @@ body {
 .textD {
     font-size: 57.6px;
     line-height: 25px;
-    position:absolute;
+    position:fixed;
     height: 50px;
     width: 50px;
-    top: 0%;
+    top: 0;
     left: 50%;
 
 }
