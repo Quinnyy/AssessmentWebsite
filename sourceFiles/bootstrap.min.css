@@ -6525,8 +6525,8 @@ button.close {
 }
 
 .carousel {
-    position: relative;
-    z-index: -1;
+    position: fixed;
+     top: 0;
 
 }
 
