@@ -14,6 +14,8 @@ body {
 
 .textD {
     position:fixed;
+    height: 50ppx;
+    width: 50px;
     top:0;
 }
 
