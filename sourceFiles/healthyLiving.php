@@ -86,10 +86,6 @@ include 'master.php';
     <ul class="ulProducts" runat="server" id="newsFeed">
 
 
-
-
-
-
 <?php
 if(!$_POST['submit'])
 {
