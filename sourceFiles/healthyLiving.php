@@ -32,6 +32,7 @@ include 'master.php';
             This page will contain helpful information, tips & tricks for staying healthy!
         </div>
     </div>
+    <hr />
 
         <h2>News Feed!</h2>
 
@@ -52,7 +53,7 @@ include 'master.php';
 
 
 
-    <hr />
+
 <br>
         <br>
         <br>
