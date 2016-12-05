@@ -41,13 +41,18 @@ include 'master.php';
 <ul class="ulProducts" runat="server" id="newsFeed">
     <li class ="display2">
         <b>Healthy Body</b>
+        <br>
         Excessive body fat can be caused by many factors: over eating due to stress, unbalanced diet and not enough exercise to name a few. It's really easy
         to gain weight and even easier not to do anything about it. This page will explain why you need to lose weight and methods on how to lose weight
     </li> <li class ="display2">
         <b>Healthy Mind</b>
+        <br<
         The key to a healthy lifestyle is not just having a healthy body; but also having a healthy mental state. Stress, anxiety, depression can all cause negative
         impact on your day to day life and could even lead to self neglect. Confidence is also a big factor in a healthy lifestyle; having the courage to welcome new
         things into your life can lead to great opportunities.
+    </li>
+    <li>
+        <img src="Health-Tips-to-Keep-your-Body-Healthy.jpg">
     </li>
     <ul>
 
