@@ -37,25 +37,25 @@ include 'master.php';
 
     <ul class="ulProducts" runat="server" id="newsFeed">
 
-        <li calss="productDisplay">
+        <li clss="productDisplay">
             <b>Feel the Burn!</b>
             <br>
             Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
             journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
         </li>
-        <li calss="productDisplay">
+        <li clss="productDisplay">
             <b>Feel the Burn!</b>
             <br>
             Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
             journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
         </li>
-        <li calss="productDisplay">
+        <li clss="productDisplay">
             <b>Feel the Burn!</b>
             <br>
             Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
             journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
         </li>
-        </ul>
+    </ul>
 
 
 </div>
