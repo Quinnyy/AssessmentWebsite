@@ -37,8 +37,9 @@ include 'master.php';
             <div class="col-lg-12">
                 <h1>Contributor Page</h1>
             </div>
+
             <form action="healthyLiving.php" method="post">
-                Headliner: <input type="text" name="title">
+                Headliner: <input type="text" name="title"/>
                 <br>
                 Description: <textarea name="desc" rows="10" cols="30"></textarea>
                 <br>
