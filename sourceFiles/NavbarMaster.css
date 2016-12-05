@@ -44,6 +44,7 @@ nav ul li {
     height: 48px;
     line-height: 48px;
     transition: background 0.3s ease;
+    background: black;
 }
 
 nav ul li:hover {
@@ -67,7 +68,7 @@ nav ul ul {
     max-height: 0;
     opacity: 0;
     transition: opacity 0.3s ease;
-    background: -webkit-linear-gradient(rgba(35, 43, 85, 255), rgb(0, 0, 0));
+    background: -webkit-linear-gradient(rgba(35, 43, 85, 255), rgba(35, 43, 85, 255));
     background: linear-gradient( rgba(255, 255, 255, 255), rgba(255, 255, 255, 255));
     border-radius: 0px;
     padding: 0;
