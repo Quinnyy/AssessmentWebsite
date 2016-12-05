@@ -3,7 +3,7 @@ include 'master.php';
 ?>
 
 <htm>
-
+    <link href="master.css" rel="stylesheet" />
 <form action="healthyLiving.php" method="post">
     Title: <input type="text" name="title">
     Description: <input type="text" name="desc">

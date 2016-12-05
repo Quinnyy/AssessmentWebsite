@@ -3,7 +3,7 @@
 
 <head runat = "server">
     <title>
-        Student Profile
+        Discover Aberdeen
     </title>
 
 
