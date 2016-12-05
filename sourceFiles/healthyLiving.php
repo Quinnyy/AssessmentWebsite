@@ -7,6 +7,7 @@ include 'master.php';
 
 <link href="half-slider.css" rel="stylesheet" />
 <link href="healthPage.css" rel="stylesheet" />
+<link href="master.css" rel="stylesheet" />
 
 <header id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
