@@ -36,14 +36,6 @@ include 'master.php';
 </div>
 
 
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.min.js"></script>
-<script>
-    $('.carousel').carousel({
-        interval: 5000
-    })
-</script>
-
 </body>
 
 </html>
