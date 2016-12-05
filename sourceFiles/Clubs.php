@@ -36,8 +36,8 @@ include 'master.php';
 </div>
 
 
-<script src="../js/jquery.js"></script>
-<script src="../js/bootstrap.min.js"></script>
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
 
 <script>
     $('.carousel').carousel({
