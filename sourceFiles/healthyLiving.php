@@ -46,7 +46,7 @@ include 'master.php';
         to gain weight and even easier not to do anything about it. This page will explain why you need to lose weight and methods on how to lose weight
     </li> <li class ="display2">
         <b>Healthy Mind</b>
-        <br<
+        <br>
         The key to a healthy lifestyle is not just having a healthy body; but also having a healthy mental state. Stress, anxiety, depression can all cause negative
         impact on your day to day life and could even lead to self neglect. Confidence is also a big factor in a healthy lifestyle; having the courage to welcome new
         things into your life can lead to great opportunities.
