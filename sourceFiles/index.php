@@ -8,7 +8,7 @@ include 'master.php';
 
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Home Page</title>
 </head>
 <body>
 

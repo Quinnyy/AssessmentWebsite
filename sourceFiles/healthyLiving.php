@@ -8,6 +8,10 @@ include 'master.php';
 <link href="half-slider.css" rel="stylesheet" />
 
 <header id="myCarousel" class="carousel slide">
+    <title>
+        Healthy Living
+    </title>
+
     <div class="carousel-inner">
         <div class="item active">
             <div class="fill" style="background-image: url('train.jpg')";></div>
@@ -28,7 +32,7 @@ include 'master.php';
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
-            <h1>Clubs</h1>
+            <h1>Healthy Lifestyle</h1>
         </div>
     </div>
 

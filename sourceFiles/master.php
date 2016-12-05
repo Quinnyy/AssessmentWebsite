@@ -12,12 +12,12 @@
 </head >
 
 <body class="master-body">
-<form id="form1" runat="server" style="height: 52px">
+<form id="form1" runat="server" style="height: 50px">
     <header class="header">
         <nav>
             <ul>
                 <li><a href="index.php"><b>Home</b></a></li>
-                <li><a href="Clubs.php"><b>Clubs</b></a></li>
+                <li><a href="healthyLiving.php"><b>Clubs</b></a></li>
                 <li><a href="../Web_Forms/FindMe.aspx"><b>Find Me</b></a></li>
                 <li><a href="../Web_Forms/ContactMe.aspx"><b>Contact Me</b></a></li>
                 <li><a href="#"><b>My Modules</b></a>
