@@ -9,8 +9,10 @@ include 'master.php';
                 <h1>Healthy Lifestyle</h1>
             </div>
             <form action="healthyLiving.php" method="post">
-                Title: <input type="text" name="title">
-                Description: <input type="text" name="desc">
+                Headliner: <input type="text" name="title">
+                <br>
+                Description: <input type="text" name="desc" style="height: 40px; width: 40px">
+                <br>
                 <br>
                 <input type ="submit" value = "Submit" name ="submit"
             </form>
