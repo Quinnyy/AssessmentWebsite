@@ -85,7 +85,7 @@ nav ul ul li {
 
 nav ul ul li a {
     padding: 0 40px;
-    color: #919191;
+    color: #000000;
     transition: all .5s ease;
     white-space: nowrap;
 }
