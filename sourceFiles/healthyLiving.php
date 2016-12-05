@@ -52,13 +52,6 @@ include 'master.php';
     <ul>
 
 
-
-
-<br>
-        <br>
-        <br>
-        <br>
-        <br>
     <ul class="ulProducts" runat="server" id="newsFeed">
 
         <li class="display">

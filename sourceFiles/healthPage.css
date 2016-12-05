@@ -11,6 +11,7 @@ body
 }
 
     .display  {
+        margin-top: 40px;
     display:inline;
     float:left;
     margin-left:35px;
