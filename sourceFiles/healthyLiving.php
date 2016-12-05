@@ -55,9 +55,7 @@ include 'master.php';
         impact on your day to day life and could even lead to self neglect. Confidence is also a big factor in a healthy lifestyle; having the courage to welcome new
         things into your life can lead to great opportunities
     </li>
-    <li class ="display2">
-        <img src="healthymind.jpg"
-    </li>
+
 
     </ul>
 
