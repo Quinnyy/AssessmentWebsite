@@ -17,7 +17,13 @@
         <nav>
             <ul>
                 <li><a href="index.php"><b>Home</b></a></li>
-                <li><a href="healthyLiving.php"><b>Clubs</b></a></li>
+                <li>
+                    <a><b>Healthy Living</b></a>
+                        <ul>
+                            <li><a href="healthyLiving.php">Healthy Tips</a></li>
+                            <li><a href="#">Contribute Tips</a></li>
+                        </ul>
+                </li>
                 <li><a href="../Web_Forms/FindMe.aspx"><b>Find Me</b></a></li>
                 <li><a href="../Web_Forms/ContactMe.aspx"><b>Contact Me</b></a></li>
                 <li><a href="#"><b>My Modules</b></a>
