@@ -18,51 +18,16 @@
             <ul>
                 <li><a href="index.php"><b>Home</b></a></li>
                 <li>
-                    <a><b>Healthy Living</b></a>
-                        <ul>
-                            <li><a href="healthyLiving.php">Healthy Tips</a></li>
-                            <li><a href="#">Contribute Tips</a></li>
-                        </ul>
+                    <a href="index.php"><b>Clubs</b></a>
                 </li>
-                <li><a href="../Web_Forms/FindMe.aspx"><b>Find Me</b></a></li>
-                <li><a href="../Web_Forms/ContactMe.aspx"><b>Contact Me</b></a></li>
-                <li><a href="#"><b>My Modules</b></a>
+                <li><a href="../Web_Forms/FindMe.aspx"><b>Healthy Living</b></a></li>
+                <li><a href="../Web_Forms/ContactMe.aspx"><b>Local Trails</b></a></li>
+                <li><a href="#"><b>Site Users</b></a>
                     <ul>
-                        <li><a href="#">Information Technology</a>
-                            <ul>
-                                <li><a href="#">HCI</a></li>
-                                <li><a href="#">Databases</a></li>
-                                <li><a href="#">ASP.net</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Computer Fundamentals</a>
-                            <ul>
-                                <li><a href="#">Linux</a></li>
-                                <li><a href="#">BASH Scripting</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Data Structures</a>
-                            <ul>
-                                <li><a href="#">Java</a></li>
-                                <li><a href="#">C++</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#"><b>My Experiences</b></a>
-                    <ul>
-                        <li><a href="#">Personal Experience</a></li>
-                        <li><a href="#">Work Experience</a></li>
-                    </ul>
-                </li>
-                <li><a href="#"><b>My Projects</b></a></li>
-
-                <li>
-                    <a href="../Web_Forms/Login.aspx"><b>Student Login</b></a>
-                </li>
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="#">Contributor</a></li>
+                     </ul>
             </ul>
-
         </nav>
 
     </header>

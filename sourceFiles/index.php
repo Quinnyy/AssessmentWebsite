@@ -12,9 +12,6 @@ include 'master.php';
 </head>
 <body>
 
-<div class="textD" style="background-color: #269abc">
-    Is this the text you are looking for Jamie???
-</div>
 
 <div class="welcome">
     <div class="visible">
