@@ -4,6 +4,7 @@
 }
 
     .display  {
+        border: medium;
     display:inline;
     float:left;
     margin-left:35px;
