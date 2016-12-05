@@ -3,7 +3,6 @@ include 'master.php';
 ?>
 
 <html>
-
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
 
