@@ -12,7 +12,7 @@
 </head >
 
 <body class="master-body">
-<form id="form1" runat="server" style="height: 80px">
+<form id="form1" runat="server" style="height: 60px">
     <header class="header">
         <nav>
             <ul>
