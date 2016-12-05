@@ -31,6 +31,7 @@ include 'master.php';
             <h1>Healthy Lifestyle</h1>
             This page will contain helpful information, tips & tricks for staying healthy!
         </div>
+    </div>
 
         <h2>News Feed!</h2>
 
@@ -75,7 +76,7 @@ include 'master.php';
     </ul>
 
 
-</div>
+
 
 
 <script src="jquery.js"></script>
