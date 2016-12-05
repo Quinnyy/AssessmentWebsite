@@ -13,7 +13,7 @@
 
 <body class="master-body">
 <form id="form1" runat="server" style="height: 50px">
-    <header class="header">
+    <header >
         <nav>
             <ul>
                 <li><a href="index.php"><b>Home</b></a></li>
