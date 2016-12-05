@@ -3,12 +3,7 @@
     margin-left: calc(60% - 650px);
 }
 
-.legendPos{
-    margin-left: calc(60% - 580px);
-    width:1000px;
-}
-
-.productDisplay{
+    li  {
     height:200px;
     width:200px;
     display:inline;
@@ -19,8 +14,8 @@
     padding:10px;
     transition:all ease-in-out 0.3s;
     margin:20px;
-}
+        }
 
-.productDisplay:hover {
+li:hover {
     box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0,0,0,0.15);
 }
