@@ -69,8 +69,7 @@ include 'master.php';
     </ul>
 
 <br>
-<br>
-<br>
+
 <div class="container">
 <h2>Community Spotlight!</h2>
     </div>
