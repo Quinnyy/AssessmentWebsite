@@ -12,7 +12,6 @@
 </head >
 
 <body class="master-body">
-<form id="form1" runat="server">
     <header class="header">
         <nav>
             <ul>
@@ -60,7 +59,6 @@
         </nav>
 
     </header>
-</form>
 </body>
 </html>
 
