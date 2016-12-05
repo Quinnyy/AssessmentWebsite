@@ -28,7 +28,6 @@ include 'master.php';
 </header>
 
 
-
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
@@ -37,7 +36,16 @@ include 'master.php';
     </div>
 
     <hr />
+
+  <form method="post" action="">
+        Title: <input type="text" name="title" value="<?php echo $title;?>">
+        Description: <input type="text" name="desc" value="<?php echo $desc;?>">
+        <hr />
+        <input type="submit" class="button" name="submit" value="Submit" />
+  </form>
 </div>
+
+
 
 
 <script src="jquery.js"></script>
@@ -53,5 +61,18 @@ include 'master.php';
 
 </html>
 
+<?php
+if($_GET){
+    if(isset($_GET['submitt'])) {
+        insert();
+    }
+
+    function insert()
+    {
+
+    }
+}
+
+?>
 
 

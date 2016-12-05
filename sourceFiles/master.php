@@ -25,7 +25,7 @@
                 <li><a href="#"><b>Site Users</b></a>
                     <ul>
                         <li><a href="#">Admin</a></li>
-                        <li><a href="#">Contributor</a></li>
+                        <li><a href="contributorPage.php">Contributor</a></li>
                      </ul>
             </ul>
         </nav>
