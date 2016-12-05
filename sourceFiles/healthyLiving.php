@@ -70,7 +70,7 @@ include 'master.php';
 
 <br>
 <br>
-<br><br><br><br><br><br>
+<br><br><br><br>
 
 
     <ul class="ulProducts" runat="server" id="newsFeed">
