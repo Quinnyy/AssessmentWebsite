@@ -8,10 +8,6 @@ include 'master.php';
 <link href="half-slider.css" rel="stylesheet" />
 
 <header id="myCarousel" class="carousel slide">
-    <title>
-        Healthy Living
-    </title>
-
     <div class="carousel-inner">
         <div class="item active">
             <div class="fill" style="background-image: url('train.jpg')";></div>
@@ -36,16 +32,7 @@ include 'master.php';
     </div>
 
     <hr />
-
-  <form method="post" action="">
-        Title: <input type="text" name="title" value="<?php echo $title;?>">
-        Description: <input type="text" name="desc" value="<?php echo $desc;?>">
-        <hr />
-        <input type="submit" class="button" name="submit" value="Submit" />
-  </form>
 </div>
-
-
 
 
 <script src="jquery.js"></script>
@@ -57,21 +44,17 @@ include 'master.php';
     })
 </script>
 
-</body>
+
 
 </html>
 
 <?php
-if($_GET){
-    if(isset($_GET['submitt'])) {
-        insert();
-    }
-
-    function insert()
-    {
-
-    }
+if(!$_POST['submit'])
+{
+    echo "please use the form";
 }
+
+
 
 ?>
 
