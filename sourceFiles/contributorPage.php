@@ -47,10 +47,4 @@ include 'master.php';
                 <input type ="submit" value = "Submit" name ="submit"/>
             </form>
         </div>
-
-
-
-
-
-
 </html>
