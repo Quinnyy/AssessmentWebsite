@@ -72,7 +72,8 @@ include 'master.php';
 <br>
 <br><br><br><br>
 
-
+<h2>Community Spotlight!</h2>
+<hr/>
     <ul class="ulProducts" runat="server" id="newsFeed">
 
         <li class="display">
