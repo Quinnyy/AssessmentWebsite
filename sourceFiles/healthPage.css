@@ -1,0 +1,26 @@
+.ulProducts {
+    display:inline-block;
+    margin-left: calc(60% - 650px);
+}
+
+.legendPos{
+    margin-left: calc(60% - 580px);
+    width:1000px;
+}
+
+.productDisplay{
+    height:200px;
+    width:200px;
+    display:inline;
+    float:left;
+    margin-left:35px;
+    margin-bottom:5px;
+    font-size:20px;
+    padding:10px;
+    transition:all ease-in-out 0.3s;
+    margin:20px;
+}
+
+.productDisplay:hover {
+    box-shadow: 0 4px 23px 5px rgba(0, 0, 0, 0.2), 0 2px 6px rgba(0,0,0,0.15);
+}
