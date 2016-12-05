@@ -29,7 +29,7 @@ include 'master.php';
     <div class="row">
         <div class="col-lg-12">
             <h1>Healthy Lifestyle</h1>
-            This page will contain helpful information, tips & tricks for staying healthy!
+            <i>This page will contain helpful information, tips & tricks for staying healthy!</i>
         </div>
     </div>
     <hr />
