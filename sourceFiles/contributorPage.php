@@ -2,7 +2,7 @@
 include 'master.php';
 ?>
 
-<html>
+<html xmlns="http://www.w3.org/1999/html">
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
 
@@ -40,7 +40,7 @@ include 'master.php';
             <form action="healthyLiving.php" method="post">
                 Headliner: <input type="text" name="title">
                 <br>
-                Description: <input type="text" name="desc" style="height: 40px; width: 40px">
+                Description: <textarea name="desc" rows="10" cols="30"></textarea>
                 <br>
                 <br>
                 <input type ="submit" value = "Submit" name ="submit"
