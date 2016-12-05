@@ -31,6 +31,23 @@ include 'master.php';
             <h1>Healthy Lifestyle</h1>
             This page will contain helpful information, tips & tricks for staying healthy!
         </div>
+
+        <h2>News Feed!</h2>
+
+        <ul class="ulProducts" runat="server" id="newsFeed">
+            <li class ="display2">
+                <b>Healthy Body</b>
+                Excessive body fat can be caused by many factors: over eating due to stress, unbalanced diet and not enough exercise to name a few. It's really easy
+                to gain weight and even easier not to do anything about it. This page will explain why you need to lose weight and methods on how to lose weight
+            </li> <li class ="display2">
+                <b>Healthy Mind</b>
+               The key to a healthy lifestyle is not just having a healthy body; but also having a healthy mental state. Stress, anxiety, depression can all cause negative
+                impact on your day to day life and could even lead to self neglect. Confidence is also a big factor in a healthy lifestyle; having the courage to welcome new
+                things into your life can lead to great opportunities.
+            </li>
+        <ul>
+
+
     </div>
 
     <hr />
