@@ -23,7 +23,7 @@ include 'master.php';
     </div>
 </header>
 
-<body>
+
 
 <div class="container">
     <div class="row">
