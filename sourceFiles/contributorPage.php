@@ -2,7 +2,7 @@
 include 'master.php';
 ?>
 
-<htm>
+<html>
 
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
@@ -53,4 +53,4 @@ include 'master.php';
 
 
 
-</htm>
+</html>
