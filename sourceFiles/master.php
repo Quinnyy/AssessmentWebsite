@@ -18,10 +18,10 @@
             <ul>
                 <li><a href="index.php"><b>Home</b></a></li>
                 <li>
-                    <a href="index.php"><b>Clubs</b></a>
+                    <a href="#"><b>Clubs</b></a>
                 </li>
-                <li><a href="../Web_Forms/FindMe.aspx"><b>Healthy Living</b></a></li>
-                <li><a href="../Web_Forms/ContactMe.aspx"><b>Local Trails</b></a></li>
+                <li><a href="healthyLiving.php"><b>Healthy Living</b></a></li>
+                <li><a href="#"><b>Local Trails</b></a></li>
                 <li><a href="#"><b>Site Users</b></a>
                     <ul>
                         <li><a href="#">Admin</a></li>
