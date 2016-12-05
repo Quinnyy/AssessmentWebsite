@@ -7,7 +7,7 @@ include 'master.php';
 <link href="bootstrap.min.css" rel="stylesheet" />
 <link href="half-slider.css" rel="stylesheet" />
 
-<header id="myCarousel" class="carousel slide">
+
     <div class="carousel-inner">
         <div class="item active">
             <div class="fill" style="background-image: url('train.jpg')";></div>
@@ -21,7 +21,7 @@ include 'master.php';
 
         </div>
     </div>
-</header>
+
 
 <body>
 
@@ -35,6 +35,15 @@ include 'master.php';
     <hr />
 </div>
 
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
 
 </body>
 
