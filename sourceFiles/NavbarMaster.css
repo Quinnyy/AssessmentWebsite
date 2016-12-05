@@ -67,7 +67,7 @@ nav ul ul {
     max-height: 0;
     opacity: 0;
     transition: opacity 0.3s ease;
-    background: -webkit-linear-gradient(rgba(35, 43, 85, 255), rgba(35, 43, 85, 255));
+    background: -webkit-linear-gradient(rgba(35, 43, 85, 255), rgb(0, 0, 0));
     background: linear-gradient( rgba(255, 255, 255, 255), rgba(255, 255, 255, 255));
     border-radius: 0px;
     padding: 0;
