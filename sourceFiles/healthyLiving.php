@@ -52,7 +52,7 @@ include 'master.php';
         things into your life can lead to great opportunities.
     </li>
 
-    <ul>
+    </ul>
 
 
     <ul class="ulProducts" runat="server" id="newsFeed">
