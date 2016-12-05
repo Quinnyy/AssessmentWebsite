@@ -24,6 +24,15 @@ include 'master.php';
     </div>
 </header>
 
+<script src="jquery.js"></script>
+<script src="bootstrap.min.js"></script>
+
+<script>
+    $('.carousel').carousel({
+        interval: 5000
+    })
+</script>
+
 
 <div class="container">
     <div class="row">
@@ -76,51 +85,22 @@ include 'master.php';
 <hr/>
     <ul class="ulProducts" runat="server" id="newsFeed">
 
-        <li class="display">
-            <b>Feel the Burn!</b>
-            <br>
-            Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
-            journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
-        </li>
-        <li class="display">
-            <b>Feel the Burn!</b>
-            <br>
-            Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
-            journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
-        </li>
-        <li class="display">
-            <b>Feel the Burn!</b>
-            <br>
-            Looking in the mirror and don't like what you see? Can't shake that holiday fat? or do you just love to exercise? The answer to you're problems is probably just a 30minute bus
-            journey away! Gym's are a great way to achieve that healthy life style! Happy body happy life. However, going to a gym is only half the battle in the never ending strife against body fat!
-        </li>
-    </ul>
 
 
 
 
-
-<script src="jquery.js"></script>
-<script src="bootstrap.min.js"></script>
-
-<script>
-    $('.carousel').carousel({
-        interval: 5000
-    })
-</script>
-
-
-
-</html>
 
 <?php
 if(!$_POST['submit'])
 {
     echo "please use the form";
 }
-
-
-
+else
+{
+    $divTitle = $_POST['title'];
+    $divDesc = $_POST['desc'];
+    echo '<li class="display"><b>'.$divTitle.'</b><br>'.$divDesc.'</li>';
+}
 ?>
-
-
+</ul>
+</html>
