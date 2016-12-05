@@ -44,7 +44,7 @@ nav ul li {
     height: 48px;
     line-height: 48px;
     transition: background 0.3s ease;
-    background: black;
+
 }
 
 nav ul li:hover {
@@ -58,7 +58,7 @@ nav ul li:hover > a {
 nav ul li a {
     display: block;
     padding: 0 40px;
-    color: #eeeeee;
+    color: #000000;
     text-decoration: none;
 }
 
