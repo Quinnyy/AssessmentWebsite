@@ -70,9 +70,10 @@ include 'master.php';
 
 <br>
 <br>
-<br><br><br><br>
-
+<br>
+<div class="container">
 <h2>Community Spotlight!</h2>
+    </div>
 <hr/>
     <ul class="ulProducts" runat="server" id="newsFeed">
 
