@@ -14,7 +14,7 @@ if($type=="insert") {
 
 if($type=="edit")
 {
-    echo $_POST['title'];
+echo $_POST['title'], $_POST['desc'], $_POST['oldTitle'], " ";
     $sql = "UPDATE port_articles SET title='".$_POST['title']."',text='".$_POST['desc']."'WHERE title='".$_POST['oldTitle']."'";
 
     if ($db->query($sql) === TRUE)
