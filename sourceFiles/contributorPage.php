@@ -51,9 +51,9 @@ include 'master.php';
                         <form>
                             Enter Text:
                             <br>
-                            <input type="text" name="title" placeholder="title"/></br>
+                            <input type="text" id="title" placeholder="title"/></br>
                             <br>
-                           <textarea name="text" placeholder="description"></textarea></br>
+                           <textarea id="text" placeholder="description"></textarea></br>
                             <br>
                             <input type="button" value="Submit" onclick="post();"/>
                         </form>
@@ -63,8 +63,8 @@ include 'master.php';
 
                             function post()
                             {
-                                var title = $('title').val();
-                                var desc = $('text').val();
+                                var title = $('#title').val();
+                                var desc = $('#text').val();
                                 var type = "insert";
 
                                 $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
