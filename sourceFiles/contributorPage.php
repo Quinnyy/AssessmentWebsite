@@ -44,7 +44,7 @@ include 'master.php';
                         <br>
                         <br>
 
-                        <form method="post" action="healthyLiving.php" style="border: solid black">
+                        <form method="post" action="healthyLiving.php" style="border: solid black; width: 200px">
                             Enter Text:
                             <br>
                             <input type="text" name="title" placeholder="title"/></br>
