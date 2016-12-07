@@ -57,7 +57,7 @@ include 'master.php';
                            <textarea id="text" placeholder="description"></textarea>
                               <br>
                             <br>
-                            <input type="button" value="Submit" onclick="post();"/>
+                            <input type="button" value="Submit" onclick="post()"/>
                         </form>
 
                         <div id="result"></div>
