@@ -117,17 +117,23 @@ include 'master.php';
         var title = $('#title').val();
         var desc = $('#text').val();
         var type = $('#type').val();
-        if(type == "edit")
+
+        if(type == "insert")
         {
-            var e = document.getElementById("oldTitle");
-            var oldTitle = e.options[e.selectedIndex].value;
-
-        }
-
-        $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
+        $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
             {
                 $('#result').html(data);
             }
-        );
+        );}
+       else if(type == "edit")
+        {
+            var e = document.getElementById("oldTitle");
+            var oldTitle = e.options[e.selectedIndex].value;
+            $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
+                {
+                    $('#result').html(data);
+                }
+            );
+        }
     }
 </script>
