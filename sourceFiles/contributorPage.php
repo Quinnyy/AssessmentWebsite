@@ -63,9 +63,9 @@ include 'master.php';
                             function insert()
                             {
                                 var title = $('#title').val();
-                                var desc = $('$text').val();
-                                var func = "insert";
-                                $.post('editHealth.php',{posttitle:title,postdesc:desc,postfunc:func},
+
+
+                                $.post('editHealth.php',{posttitle:title},
                                 function(data)
                                 {
                                     $('#result').html(data);
