@@ -28,7 +28,8 @@ if($type=="edit")
 
 if($type=="delete")
 {
-    $sql = "DELETE from port_articles WHERE title='".$_POST['oldTitle']."'";
+    echo "Test";
+    $sql = "DELETE from port_articles WHERE title='".$_POST['toDelete']."'";
 
     if ($db->query($sql) === TRUE)
     {

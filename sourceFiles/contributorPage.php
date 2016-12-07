@@ -133,7 +133,8 @@ include 'master.php';
                         ?>
                     </select>
                     <br>
-                    <input type="button" value="Delete" onclick="delete();"/>
+                    <br>
+                    <input type="button" value="Delete" onclick=delete();"/>
 
         </div>
     </div>
