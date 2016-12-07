@@ -178,8 +178,7 @@ include 'master.php';
 
     function thisDelete()
     {
-        echo "Test";
-        var type = "delete"
+        var type = "delete";
         var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
 
         $.post('editHealth.php',{type:type,toDelete:toDelete}, function(data)
