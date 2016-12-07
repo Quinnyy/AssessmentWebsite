@@ -24,8 +24,11 @@
                 <li><a href="#"><b>Local Trails</b></a></li>
                 <li><a href="#"><b>Site Users</b></a>
                     <ul>
-                        <li><a href="#">Admin</a></li>
-                        <li><a href="contributorPage.php">Contributor</a></li>
+                        <li><a href="#">Admin</a>
+                        <li><a href="contributorPage.php">Health Page</li></li>
+                        <li><a href="#">Contributor</a>
+                            <li><a href="contributorPage.php">Health Page</li>
+                        </li>
                      </ul>
             </ul>
         </nav>

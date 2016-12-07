@@ -39,7 +39,7 @@ include 'master.php';
                 <hr/>
             </div>
 
-            <form method="post" action="create_health.php">
+            <form method="post" action="healthyLiving.php">
                 <input type="text" name="title" placeholder="title"/></br>
                 <textarea name="text" placeholder="text"></textarea></br>
                 <input type="submit" name="submit"/>
