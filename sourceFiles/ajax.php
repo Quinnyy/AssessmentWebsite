@@ -3,8 +3,7 @@ include('dbconnect.php');
 
 /* this script inserts a new article into the database*/
 
-$title = $_POST["title"];
-$text = $_POST["text"];
+
 
 if (isset($_POST['action'])) {
     switch ($_POST['action']) {
@@ -18,11 +17,15 @@ if (isset($_POST['action'])) {
 }
 
 function insert() {
+    $title = $_POST["title"];
+    $text = $_POST["text"];
     $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
     exit;
 }
 
 function edit() {
+    $title = $_POST["title"];
+    $text = $_POST["text"];
     $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
     exit;
 }
