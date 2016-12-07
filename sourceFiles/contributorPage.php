@@ -55,7 +55,7 @@ include 'master.php';
                             <br>
                            <textarea name="text" id="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="button"  onclick="insert();"/>
+                            <input type="button" value="Add"  onclick="insert();"/>
                         </form>
                     </div>
 
@@ -97,7 +97,7 @@ include 'master.php';
                         <br>
                         <textarea name="text" id="text" placeholder="description"></textarea></br>
                         <br>
-                        <input type="button" onclick="edit();"/>
+                        <input type="button" value="Edit" onclick="edit();"/>
                     </form>
 
                 </div>
