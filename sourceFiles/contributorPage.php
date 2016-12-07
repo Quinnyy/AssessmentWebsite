@@ -134,7 +134,7 @@ include 'master.php';
                     </select>
                     <br>
                     <br>
-                    <input type="button" value="Edit" onclick="delete();"/>
+                    <input type="button" value="Edit" onclick="toDelete();"/>
                 </form>
 
             </div>
@@ -176,7 +176,7 @@ include 'master.php';
         );
     }
 
-    function edit()
+    function toDelete()
     {
         var type = "delete"
         var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
