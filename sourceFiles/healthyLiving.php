@@ -87,16 +87,23 @@ include 'master.php';
 
 
 <?php
-if(!$_POST['submit'])
-{
-    echo "please use the form";
+include('dbconnect.php');
+/* this script loads the article the user clicked on.*/
+
+$id = $_GET['id'];
+$sql = "SELECT * FROM port_articles WHERE articleid = $id";
+$result = $db->query($sql);
+
+if ($result->num_rows > 0) {
+    // output data of each row
+    while ($row = $result->fetch_assoc()) {
+        echo '<li class="display"><b>' . $row["title"] . '</b><br>' . $row["text"] . '</li>';
+    }
 }
-else
-{
-    $divTitle = $_POST['title'];
-    $divDesc = $_POST['desc'];
-    echo '<li class="display"><b>'.$divTitle.'</b><br>'.$divDesc.'</li>';
-}
+else {
+    echo "0 results";
+    }
+$db->close();
 ?>
 </ul>
 </html>
