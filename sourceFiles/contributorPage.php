@@ -79,7 +79,7 @@ include 'master.php';
                             if ($result->num_rows > 0) {
                                 // output data of each row
                                 while ($row = $result->fetch_assoc()) {
-                                    echo '<option value='.$row["title"].'>'.$row["title"].'</option>';
+                                    echo '<option value='.htmlspecialchars($row['title']).'>'.htmlspecialchars($row['title']).'</option>';
                                 }
                             }
                             else {
@@ -122,7 +122,7 @@ include 'master.php';
                         if ($result->num_rows > 0) {
                             // output data of each row
                             while ($row = $result->fetch_assoc()) {
-                                echo '<option value='.$row["title"].'>'.$row["title"].'</option>';
+                                echo '<option value='.htmlspecialchars($row['title']).'>'.htmlspecialchars($row['title']).'</option>';
                             }
                         }
                         else {
