@@ -178,6 +178,7 @@ include 'master.php';
 
     function toDelete()
     {
+        echo "Test";
         var type = "delete"
         var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
 
