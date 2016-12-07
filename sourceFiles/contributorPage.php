@@ -55,7 +55,7 @@ include 'master.php';
                             <br>
                            <textarea name="text" id="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="button" value="insert" name="type" onclick="post();"/>
+                            <input type="button" value="insert" id="type" onclick="post();"/>
                         </form>
                     </div>
 
@@ -97,7 +97,7 @@ include 'master.php';
                         <br>
                         <textarea name="text" id="text" placeholder="description"></textarea></br>
                         <br>
-                        <input type="button" value="edit" name="type" onclick="post();"/>
+                        <input type="button" value="edit" id="type" onclick="post();"/>
                     </form>
 
                 </div>
@@ -116,7 +116,7 @@ include 'master.php';
     {
         var title = $('#title').val();
         var desc = $('#text').val();
-        var type = $('#type').val();
+        var type = document.getElementById('type').value
 
         if(type == "insert")
         {
