@@ -134,7 +134,7 @@ include 'master.php';
                     </select>
                     <br>
                     <br>
-                    <input type="button" value="Delete" onclick="toDelete();"/>
+                    <input type="button" value="Delete" onclick="thisDelete();"/>
                 </form>
 
             </div>
@@ -176,7 +176,7 @@ include 'master.php';
         );
     }
 
-    function toDelete()
+    function thisDelete()
     {
         echo "Test";
         var type = "delete"
