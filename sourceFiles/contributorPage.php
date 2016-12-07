@@ -6,19 +6,19 @@ include 'master.php';
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
     <link href="healthPage.css" rel="stylesheet" />
-    <link href="onClick.js">
+
 
     <header id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image: url('train.jpg')";></div>
+                <div class="fill" style="background-image: url('train.jpg')"></div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image: url('rain.jpg')";></div>
+                <div class="fill" style="background-image: url('rain.jpg')"></div>
 
             </div>
             <div class="item">
-                <div class="fill" style="background-image: url('tree.jpg')";></div>
+                <div class="fill" style="background-image: url('tree.jpg')"></div>
 
             </div>
         </div>
@@ -61,23 +61,8 @@ include 'master.php';
                         </form>
 
                         <div id="result"></div>
-                        <script type="text/javascript">
-
-                            function post()
-                            {
-                                var title = $('#title').val();
-                                var desc = $('#text').val();
-                                var type = "insert";
-
-                                $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
-                                    {
-                                        $('#result').html(data);
-                                    };
-                                )
-                            }
-                        </script>
-
                     </div>
+
                 <div class="col-lg-12" style="width: 350px">
                     <h3>Edit Article</h3>
                     <i>Edit an existing article below!</i>
@@ -124,4 +109,19 @@ include 'master.php';
         </div>
     </div>
 </html>
+
+<script type="text/javascript">
+    function post()
+    {
+        var title = $('#title').val();
+        var desc = $('#text').val();
+        var type = "insert";
+
+        $.post('editHealth.php',{posttitle:title,postdesc:desc,posttype:type}, function(data)
+        {
+            $('#result').html(data);
+        };
+    )
+    }
+</script>
 

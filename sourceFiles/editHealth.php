@@ -1,9 +1,10 @@
 <?php
 include('dbconnect.php');
 
-$title = $_POST['title'];
-$desc = $_POST['desc'];
-$type = $_POST['type'];
+$title = $_POST['posttitle'];
+$desc = $_POST['postdesc'];
+$type = $_POST['[posttype'];
+
 echo $title, $desc, $type;
 
 ?>
