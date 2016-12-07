@@ -113,8 +113,8 @@ include 'master.php';
 <script type="text/javascript">
     function post()
     {
-        var title = $('#title').val();
-        var desc = $('#text').val();
+        var title = $('title').val();
+        var desc = $('text').val();
         var type = "insert";
 
         $.post('editHealth.php',{posttitle:title,postdesc:desc,posttype:type}, function(data)
