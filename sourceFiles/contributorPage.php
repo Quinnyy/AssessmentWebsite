@@ -38,7 +38,8 @@ include 'master.php';
             <div class="col-lg-12">
                 <h1>Contributor Health Page</h1>
                 <hr/>
-                    <div class="col-lg-12">
+            </div>
+                    <div class="col-lg-12"  style="width: 250px">
                         <h2>Add Article</h2>
                         <i>Type article title and description in the boxes below!</i>
                         <br>
@@ -55,7 +56,7 @@ include 'master.php';
                         </form>
 
                     </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12" style="width: 250px">
                     <h2>Edit Article</h2>
                     <i>Edit an existing article below!</i>
                     <br>
@@ -86,6 +87,7 @@ include 'master.php';
                             ?>
                         </select>
                         <br>
+                        <br>
                         Enter Text Here:
                         <br>
                         <input type="text" name="title" placeholder="title"/></br>
@@ -96,7 +98,7 @@ include 'master.php';
                     </form>
 
                 </div>
-                </div>
+
         </div>
     </div>
 
