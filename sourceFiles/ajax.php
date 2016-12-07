@@ -26,13 +26,3 @@ function edit() {
     $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
     exit;
 }
-
-
-if ($db->query($sql) === TRUE) {
-    header( 'Location: http://gcg.azurewebsites.net/healthpages/health.php' ) ;
-
-} else {
-    echo "Error: " . $sql . "<br>" . $db->error;
-}
-
-?>
