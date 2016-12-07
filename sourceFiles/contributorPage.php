@@ -36,7 +36,6 @@ include 'master.php';
 
     </script>
 
-
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -49,15 +48,31 @@ include 'master.php';
                         <br>
                         <br>
 
-                        <form method="post" action="healthyLiving.php">
+                        <form>
                             Enter Text:
                             <br>
                             <input type="text" name="title" placeholder="title"/></br>
                             <br>
                            <textarea name="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="submit" name="insert"/>
+                            <input type="submit" name="insert" onclick="insert"/>
                         </form>
+
+                        <script type="text/javascript">
+
+                            function insert()
+                            {
+                                var title = $('#title').val();
+                                var desc = $('$text').val();
+                                var func = "insert";
+                                $.post('editHealth.php',{posttitle:title,postdesc:desc,postfunc:func},
+                                function(data)
+                                {
+                                    $('#result').html(data);
+                                }
+                                );
+                            }
+                        </script>
 
                     </div>
                 <div class="col-lg-12" style="width: 350px">
@@ -105,18 +120,5 @@ include 'master.php';
 
         </div>
     </div>
-
-<script>
-    $('.button').click(function() {
-        $.ajax({
-            type: "POST",
-            url: "editHealth.php",
-            data: { $('title').val(), $('text').val() }
-        }).done(function( msg ) {
-            alert( "Data Saved: " + msg );
-        });
-
-    });
-</script>
-
 </html>
+

@@ -1,8 +1,13 @@
 <?php
 include('dbconnect.php');
 
-/* this script inserts a new article into the database*/
+echo "Working";
 
+?>
+
+
+/* this script inserts a new article into the database*/
+/*
 function insert($title, $text) {
     $sql = "INSERT INTO port_articles (title, text) VALUES ('".$title."', '".$text."')";
     echo "The select function is called.";
