@@ -63,15 +63,15 @@ include 'master.php';
 
                             function post()
                             {
-                                var title = $('#title').val();
-                                var desc = $('#text').val();
+                                var title = $('title').val();
+                                var desc = $('text').val();
                                 var type = "insert";
 
                                 $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
                                     {
                                         $('#result').html(data);
-                                    }
-                                );
+                                    };
+                                )
                             }
                         </script>
 
