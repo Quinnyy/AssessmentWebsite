@@ -51,9 +51,11 @@ include 'master.php';
                         <form>
                             Enter Text:
                             <br>
-                            <input type="text" id="title" placeholder="title"/></br>
+                            <input type="text" id="title" placeholder="title">
                             <br>
-                           <textarea id="text" placeholder="description"></textarea></br>
+                            <br>
+                           <textarea id="text" placeholder="description"></textarea>
+                              <br>
                             <br>
                             <input type="button" value="Submit" onclick="post();"/>
                         </form>
