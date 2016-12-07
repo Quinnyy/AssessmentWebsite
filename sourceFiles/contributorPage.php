@@ -39,8 +39,8 @@ include 'master.php';
                 <h1>Contributor Health Page</h1>
                 <hr/>
             </div>
-                    <div class="col-lg-12"  style="width: 250px">
-                        <h2>Add Article</h2>
+                    <div class="col-lg-12"  style="width: 350px">
+                        <h3>Add Article</h3>
                         <i>Type article title and description in the boxes below!</i>
                         <br>
                         <br>
@@ -56,8 +56,8 @@ include 'master.php';
                         </form>
 
                     </div>
-                <div class="col-lg-12" style="width: 250px">
-                    <h2>Edit Article</h2>
+                <div class="col-lg-12" style="width: 350px">
+                    <h3>Edit Article</h3>
                     <i>Edit an existing article below!</i>
                     <br>
                     <br>
