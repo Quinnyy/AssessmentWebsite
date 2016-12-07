@@ -15,11 +15,11 @@ if (isset($_POST['action'])) {
             break;
     }
 }
-
 function insert() {
     $title = $_POST["title"];
     $text = $_POST["text"];
     $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
+    echo "The select function is called.";
     exit;
 }
 
