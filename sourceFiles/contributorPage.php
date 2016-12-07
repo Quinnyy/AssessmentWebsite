@@ -55,7 +55,7 @@ include 'master.php';
                             <br>
                            <textarea name="text" id="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="button" value="insert" id="type" onclick="post();"/>
+                            <input type="button"  onclick="insert();"/>
                         </form>
                     </div>
 
@@ -97,7 +97,7 @@ include 'master.php';
                         <br>
                         <textarea name="text" id="text" placeholder="description"></textarea></br>
                         <br>
-                        <input type="button" value="edit" id="type" onclick="post();"/>
+                        <input type="button" onclick="edit();"/>
                     </form>
 
                 </div>
@@ -112,28 +112,31 @@ include 'master.php';
 
 <script type="text/javascript">
 
-    function post()
+    function insert()
     {
         var title = $('#title').val();
         var desc = $('#text').val();
-        var type = document.getElementById('type').value
+        var type = "insert"
 
-        if(type == "insert")
-        {
         $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
             {
                 $('#result').html(data);
             }
-        );}
-       else if(type == "edit")
-        {
-            var e = document.getElementById("oldTitle");
-            var oldTitle = e.options[e.selectedIndex].value;
-            $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
-                {
-                    $('#result').html(data);
-                }
-            );
-        }
+        );
+    }
+
+    function edit()
+    {
+        var title = $('#title').val();
+        var desc = $('#text').val();
+        var type = "edit"
+        var e = document.getElementById("oldTitle");
+        var oldTitle = e.options[e.selectedIndex].value;
+
+        $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
+            {
+                $('#result').html(data);
+            }
+        );
     }
 </script>
