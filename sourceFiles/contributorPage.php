@@ -93,9 +93,9 @@ include 'master.php';
                         <br>
                         Enter Text Here:
                         <br>
-                        <input type="text" name="title" id="title" placeholder="title"/></br>
+                        <input type="text" name="titleEdit" id="titleEdit" placeholder="title"/></br>
                         <br>
-                        <textarea name="text" id="text" placeholder="description"></textarea></br>
+                        <textarea name="textEdit" id="textEdit" placeholder="description"></textarea></br>
                         <br>
                         <input type="button" value="Edit" onclick="edit();"/>
                     </form>
@@ -114,8 +114,8 @@ include 'master.php';
 
     function insert()
     {
-        var title = $('#title').val();
-        var desc = $('#text').val();
+        var title = $('#titleEdit').val();
+        var desc = $('#textEdit').val();
         var type = "insert"
 
         $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
