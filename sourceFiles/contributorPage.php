@@ -58,13 +58,17 @@ include 'master.php';
                             <input type="button" value="Submit" onclick="post();"/>
                         </form>
 
+                        <div id="result"></div>
                         <script type="text/javascript">
 
                             function post()
                             {
                                 var title = $('#title').val();
 
-                                $.post('editHealth.php',{posttitle:title}
+                                $.post('editHealth.php',{posttitle:title}, function(data)
+                                    {
+                                        $('#result').html(data);
+                                    }
                                 );
                             }
                         </script>
