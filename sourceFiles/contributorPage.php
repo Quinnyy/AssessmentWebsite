@@ -55,12 +55,12 @@ include 'master.php';
                             <br>
                            <textarea name="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="submit" name="insert" onclick="insert"/>
+                            <input type="button" value="Submit" onclick="post();"/>
                         </form>
 
                         <script type="text/javascript">
 
-                            function insert()
+                            function post()
                             {
                                 var title = $('#title').val();
 
