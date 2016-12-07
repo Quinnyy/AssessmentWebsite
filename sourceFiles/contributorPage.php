@@ -130,7 +130,7 @@ include 'master.php';
         var title = $('#titleEdit').val();
         var desc = $('#textEdit').val();
         var type = "edit"
-        var oldTitle = document.getElementById("oldTitle").value;
+        var oldTitle = document.getElementById("oldTitle").options[document.getElementById("oldTitle").selectedIndex].value;
 
         $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
             {
