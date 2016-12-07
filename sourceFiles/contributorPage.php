@@ -44,7 +44,7 @@ include 'master.php';
             </div>
                     <div class="col-lg-12"  style="width: 350px">
                         <h3>Add Article</h3>
-                        <i>Type article title and description in the boxes below!</i>
+                        <i>Add a new article below!</i>
                         <br>
                         <br>
 
@@ -134,8 +134,10 @@ include 'master.php';
                     </select>
                     <br>
                     <br>
-                    <input type="button" value="Delete" onclick="delete();"/>
-                    </form>
+                    <input type="button" value="Edit" onclick="delete();"/>
+                </form>
+
+            </div>
 
         </div>
     </div>
@@ -174,9 +176,9 @@ include 'master.php';
         );
     }
 
-    function delete()
+    function edit()
     {
-        var type = "delete";
+        var type = "delete"
         var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
 
         $.post('editHealth.php',{type:type,toDelete:toDelete}, function(data)
@@ -184,7 +186,6 @@ include 'master.php';
                 $('#result').html(data);
             }
         );
-
     }
 
 
