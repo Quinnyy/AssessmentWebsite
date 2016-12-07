@@ -90,7 +90,6 @@ include 'master.php';
 include('dbconnect.php');
 /* this script loads the article the user clicked on.*/
 
-$id = $_GET['id'];
 $sql = "SELECT * FROM port_articles";
 $result = $db->query($sql);
 

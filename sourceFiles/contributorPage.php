@@ -39,13 +39,10 @@ include 'master.php';
                 <hr/>
             </div>
 
-            <form action="healthyLiving.php" method="post">
-                Headliner: <input type="text" name="title"/>
-                <br>
-                Description: <textarea name="desc" rows="10" cols="30"></textarea>
-                <br>
-                <br>
-                <input type ="submit" value = "Submit" name ="submit"/>
+            <form method="post" action="create_health.php">
+                <input type="text" name="title" placeholder="title"/></br>
+                <textarea name="text" placeholder="text"></textarea></br>
+                <input type="submit" name="submit"/>
             </form>
         </div>
 </html>
