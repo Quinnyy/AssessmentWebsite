@@ -68,7 +68,7 @@ include 'master.php';
                     <form>
                         Select Article to Edit:
                         <br>
-                        <select name = "oldTitle">
+                        <select id = "oldTitle">
                             <?php
                             include('dbconnect.php');
                             /* this script loads the article the user clicked on.*/
@@ -119,7 +119,9 @@ include 'master.php';
         var type = $('#type').val();
         if(type == "edit")
         {
-            var oldTitle = $('#oldTitle').val();
+            var e = document.getElementById("oldTitle");
+            var oldTitle = e.options[e.selectedIndex].value;
+
         }
 
         $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
