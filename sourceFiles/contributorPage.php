@@ -45,9 +45,9 @@ include 'master.php';
                         <br>
                         <div class="formBox">
                         <form method="post" action="healthyLiving.php">
-                            Title: <input type="text" name="title" placeholder="title"/></br>
+                            Enter Text:  <input type="text" name="title" placeholder="title"/></br>
                             <br>
-                            Desc: <textarea name="text" placeholder="text"></textarea></br>
+                           <textarea name="text" placeholder="text"></textarea></br>
                             <br>
                             <input type="submit" name="submit"/>
                         </form>
