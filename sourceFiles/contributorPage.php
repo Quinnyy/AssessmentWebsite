@@ -111,7 +111,7 @@ include 'master.php';
         $.ajax({
             type: "POST",
             url: "editHealth.php",
-            data: { title, text }
+            data: { $('title').val(), $('text').val() }
         }).done(function( msg ) {
             alert( "Data Saved: " + msg );
         });
