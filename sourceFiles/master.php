@@ -26,10 +26,17 @@
                     <ul>
                         <li><a href="#">Admin</a>
                         <ul>
-                            <li><a href="#">Health</a>
+                            <li><a href="#">Clubs</a></li>
+                            <li><a href="#">Health</a></li>
+                            <li><a href="#">Maps</a></li>
                         </ul></li>
                         <li><a href="#">Contributor</a>
-                        <ul><li><a href="contributorPage.php">Contributor</a> </ul></li>
+                        <ul>
+                            <li><a href="#">Clubs</a></li>
+                            <li><a href="contributorPage.php">Health</a></li>
+                            <li><a href="#">Maps</a></li>
+
+                        </ul>
 
                      </ul></li>
 
