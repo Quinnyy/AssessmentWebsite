@@ -130,9 +130,9 @@ include 'master.php';
         var title = $('#title').val();
         var desc = $('#text').val();
         var type = "edit"
+        var oldTitle = $('#oldTitle').val();
 
-
-        $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
+        $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
             {
                 $('#result').html(data);
             }
