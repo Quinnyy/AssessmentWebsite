@@ -6,6 +6,7 @@ include 'master.php';
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
     <link href="healthPage.css" rel="stylesheet" />
+    <link href="onClick.js">
 
     <header id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
@@ -52,7 +53,7 @@ include 'master.php';
                             <br>
                            <textarea name="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="submit" name="submit"/>
+                            <input type="submit" name="insert"/>
                         </form>
 
                     </div>
@@ -94,7 +95,7 @@ include 'master.php';
                         <br>
                         <textarea name="text" placeholder="description"></textarea></br>
                         <br>
-                        <input type="submit" name="submit"/>
+                        <input type="submit" name="edit"/>
                     </form>
 
                 </div>

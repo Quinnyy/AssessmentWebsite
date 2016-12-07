@@ -5,13 +5,26 @@ include('dbconnect.php');
 
 $title = $_POST["title"];
 $text = $_POST["text"];
-$sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
 
-if ($db->query($sql) === TRUE) {
-    header( 'Location: http://gcg.azurewebsites.net/healthpages/health.php' ) ;
+if (isset($_POST['action'])) {
+    switch ($_POST['action']) {
+        case 'insert':
+            insert();
+            break;
+        case 'select':
+            select();
+            break;
+    }
+}
 
-} else {
-    echo "Error: " . $sql . "<br>" . $db->error;
+function insert() {
+    $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
+    exit;
+}
+
+function edit() {
+    $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['text']."')";
+    exit;
 }
 
 ?>
