@@ -57,25 +57,8 @@ include 'master.php';
                             <br>
                             <input type="button" value="Submit" onclick="post();"/>
                         </form>
-
-                        <div id="result"></div>
-                        <script type="text/javascript">
-
-                            function post()
-                            {
-                                var title = $('#title').val();
-                                var desc = $('#text').val();
-                                var type = "insert";
-
-                                $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
-                                    {
-                                        $('#result').html(data);
-                                    }
-                                );
-                            }
-                        </script>
-
                     </div>
+
                 <div class="col-lg-12" style="width: 350px">
                     <h3>Edit Article</h3>
                     <i>Edit an existing article below!</i>
@@ -121,5 +104,24 @@ include 'master.php';
 
         </div>
     </div>
+
+    <div id="result"></div>
+
+
 </html>
 
+<script type="text/javascript">
+
+    function post()
+    {
+        var title = $('#title').val();
+        var desc = $('#text').val();
+        var type = "insert";
+
+        $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
+            {
+                $('#result').html(data);
+            }
+        );
+    }
+</script>
