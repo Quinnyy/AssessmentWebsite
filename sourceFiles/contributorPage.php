@@ -64,12 +64,7 @@ include 'master.php';
                             {
                                 var title = $('#title').val();
 
-
-                                $.post('editHealth.php',{posttitle:title},
-                                function(data)
-                                {
-                                    $('#result').html(data);
-                                }
+                                $.post('editHealth.php',{posttitle:title}
                                 );
                             }
                         </script>
