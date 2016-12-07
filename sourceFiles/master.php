@@ -26,10 +26,10 @@
                     <ul>
                         <li><a href="#">Admin</a>
                         <ul>
-                            <li><a href="#">Edit Health Page</a>
+                            <li><a href="#">Health</a>
                         </ul></li>
                         <li><a href="#">Contributor</a>
-                        <ul><li><a href="contributorPage.php">Health Page</a> </ul></li>
+                        <ul><li><a href="contributorPage.php">Contributor</a> </ul></li>
 
                      </ul></li>
 
