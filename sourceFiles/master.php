@@ -22,13 +22,11 @@
                 </li>
                 <li><a href="healthyLiving.php"><b>Healthy Living</b></a></li>
                 <li><a href="#"><b>Local Trails</b></a></li>
-                <li><a href="#"><b>Site Users</b></a>
+                <li><a href="#"><b>Site Users</b></a></li>
                     <ul>
-                        <li><a href="#">Admin</a>
-                        <li><a href="contributorPage.php">Health Page</li></li>
-                        <li><a href="#">Contributor</a>
-                            <li><a href="contributorPage.php">Health Page</li>
-                        </li>
+                        <li><a href="#">Admin</a></li>
+                        <li><a href="contributorPage.php">Contributor</a>  </li>
+
                      </ul>
             </ul>
         </nav>
