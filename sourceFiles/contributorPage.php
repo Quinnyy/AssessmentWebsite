@@ -43,15 +43,17 @@ include 'master.php';
                         <i>Type article title and description in the boxes below!</i>
                         <br>
                         <br>
-                        <div class="formBox">
-                        <form method="post" action="healthyLiving.php">
-                            Enter Text:  <input type="text" name="title" placeholder="title"/></br>
+
+                        <form method="post" action="healthyLiving.php" style="border: solid black">
+                            Enter Text:
                             <br>
-                           <textarea name="text" placeholder="text"></textarea></br>
+                            <input type="text" name="title" placeholder="title"/></br>
+                            <br>
+                           <textarea name="text" placeholder="description"></textarea></br>
                             <br>
                             <input type="submit" name="submit"/>
                         </form>
-                        </div>
+
                     </div>
                 </div>
         </div>
