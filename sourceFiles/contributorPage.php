@@ -134,7 +134,7 @@ include 'master.php';
                     </select>
                     <br>
                     <br>
-                    <input type="button" value="Delete" onclick=delete();"/>
+                    <input type="button" value="Delete" onclick="delete();"/>
 
         </div>
     </div>
@@ -175,9 +175,10 @@ include 'master.php';
 
     function delete()
     {
-        var type = "delete"
+        var type = "delete";
         var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
-        $.post('editHealth.php',{toDelete:toDelete}, function(data)
+
+        $.post('editHealth.php',{type:type,toDelete:toDelete}, function(data)
             {
                 $('#result').html(data);
             }
