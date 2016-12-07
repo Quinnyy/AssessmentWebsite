@@ -55,7 +55,7 @@ include 'master.php';
                             <br>
                            <textarea name="text" id="text" placeholder="description"></textarea></br>
                             <br>
-                            <input type="button" value="Submit" onclick="post();"/>
+                            <input type="button" value="insert" name="type" onclick="post();"/>
                         </form>
                     </div>
 
@@ -65,10 +65,10 @@ include 'master.php';
                     <br>
                     <br>
 
-                    <form method="post" action="healthyLiving.php">
+                    <form>
                         Select Article to Edit:
                         <br>
-                        <select>
+                        <select name = "oldTitle">
                             <?php
                             include('dbconnect.php');
                             /* this script loads the article the user clicked on.*/
@@ -93,11 +93,11 @@ include 'master.php';
                         <br>
                         Enter Text Here:
                         <br>
-                        <input type="text" name="title" placeholder="title"/></br>
+                        <input type="text" name="title" id="title" placeholder="title"/></br>
                         <br>
-                        <textarea name="text" placeholder="description"></textarea></br>
+                        <textarea name="text" id="text" placeholder="description"></textarea></br>
                         <br>
-                        <input type="submit" name="edit"/>
+                        <input type="button" value="edit" name="type" onclick="post();"/>
                     </form>
 
                 </div>
@@ -116,9 +116,13 @@ include 'master.php';
     {
         var title = $('#title').val();
         var desc = $('#text').val();
-        var type = "insert";
+        var type = $('#type').val();
+        if(type == "edit")
+        {
+            var oldTitle = $('#oldTitle').val();
+        }
 
-        $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
+        $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
             {
                 $('#result').html(data);
             }
