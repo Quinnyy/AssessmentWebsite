@@ -33,7 +33,7 @@ include 'master.php';
     })
 </script>
 
-<body background="413604-black-striped-wallpaper.jpeg">
+
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
@@ -105,5 +105,5 @@ else {
 $db->close();
 ?>
 </ul>
-</body>
+
 </html>
