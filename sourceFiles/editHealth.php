@@ -1,9 +1,16 @@
 <?php
 include('dbconnect.php');
 
-echo "Working";
+$title = $_POST['title'];
+$desc = $_POST['desc'];
+$type = $_POST['type'];
+echo $title, $desc, $type;
 
 ?>
+
+
+
+
 
 
 /* this script inserts a new article into the database*/
