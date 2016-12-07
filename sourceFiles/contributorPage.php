@@ -5,6 +5,7 @@ include 'master.php';
 <html xmlns="http://www.w3.org/1999/html">
     <link href="bootstrap.min.css" rel="stylesheet" />
     <link href="half-slider.css" rel="stylesheet" />
+    <link href="healthPage.css" rel="stylesheet" />
 
     <header id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
@@ -41,12 +42,16 @@ include 'master.php';
                         <h2>Add Article</h2>
                         <i>Type article title and description in the boxes below!</i>
                         <br>
+                        <br>
+                        <div class="formBox">
                         <form method="post" action="healthyLiving.php">
                             Title: <input type="text" name="title" placeholder="title"/></br>
                             <br>
-                            Description: <textarea name="text" placeholder="text"></textarea></br>
+                            Desc: <textarea name="text" placeholder="text"></textarea></br>
+                            <br>
                             <input type="submit" name="submit"/>
                         </form>
+                        </div>
                     </div>
                 </div>
         </div>
