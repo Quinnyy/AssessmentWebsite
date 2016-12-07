@@ -68,7 +68,7 @@ include 'master.php';
                     <form>
                         Select Article to Edit:
                         <br>
-                        <select name = "oldTitle" id="oldTitle">
+                        <select id="oldTitle">
                             <?php
                             include('dbconnect.php');
                             /* this script loads the article the user clicked on.*/
