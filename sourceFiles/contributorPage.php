@@ -102,6 +102,39 @@ include 'master.php';
 
                 </div>
 
+            <div class="col-lg-12" style="width: 350px">
+                <h3>Delete Article</h3>
+                <i>Delete an existing article below!</i>
+                <br>
+                <br>
+
+                <form>
+                    Select Article to Delete:
+                    <br>
+                    <select id="toDelete">
+                        <?php
+                        include('dbconnect.php');
+                        /* this script loads the article the user clicked on.*/
+
+                        $sql = "SELECT * FROM port_articles";
+                        $result = $db->query($sql);
+
+                        if ($result->num_rows > 0) {
+                            // output data of each row
+                            while ($row = $result->fetch_assoc()) {
+                                echo '<option value='.$row["title"].'>'.$row["title"].'</option>';
+                            }
+                        }
+                        else {
+                            echo "0 results";
+                        }
+                        $db->close();
+
+                        ?>
+                    </select>
+                    <br>
+                    <input type="button" value="Delete" onclick="delete();"/>
+
         </div>
     </div>
 
@@ -138,4 +171,18 @@ include 'master.php';
             }
         );
     }
+
+    function delete()
+    {
+        var type = "delete"
+        var toDelete = document.getElementById("toDelete").options[document.getElementById("toDelete").selectedIndex].value;
+        $.post('editHealth.php',{toDelete:toDelete}, function(data)
+            {
+                $('#result').html(data);
+            }
+        );
+
+    }
+
+
 </script>

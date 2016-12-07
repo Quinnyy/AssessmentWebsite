@@ -26,6 +26,19 @@ if($type=="edit")
     }
 }
 
+if($type=="delete")
+{
+    $sql = "DELETE from port_articles WHERE title='".$_POST['oldTitle']."'";
+
+    if ($db->query($sql) === TRUE)
+    {
+        echo "Article deleted, thank you";
+    }
+    else {
+        echo "Error: " . $sql . "<br>" . $db->error;
+    }
+}
+
 
 
 
