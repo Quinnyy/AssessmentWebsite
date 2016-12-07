@@ -5,7 +5,7 @@ $title = $_POST['title'];
 $desc = $_POST['desc'];
 $type = $_POST['type'];
 
-echo $title;
+echo $title, $desc, $type;
 
 ?>
 
