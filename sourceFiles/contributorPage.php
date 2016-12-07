@@ -35,14 +35,26 @@ include 'master.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <h1>Contributor Page</h1>
+                <h1>Contributor Health Page</h1>
                 <hr/>
             </div>
 
-            <form method="post" action="healthyLiving.php">
-                <input type="text" name="title" placeholder="title"/></br>
-                <textarea name="text" placeholder="text"></textarea></br>
-                <input type="submit" name="submit"/>
-            </form>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2>Add Article</h2>
+                        <i>Type article title and description in the boxes below!</i>
+                        <br>
+                        <form method="post" action="healthyLiving.php">
+                            Title: <input type="text" name="title" placeholder="title"/></br>
+                            <br>
+                            Description<textarea name="text" placeholder="text"></textarea></br>
+                            <input type="submit" name="submit"/>
+                        </form>
+                    </div>
+                </div>
+
+
+
         </div>
 </html>
