@@ -33,7 +33,7 @@ include 'master.php';
     })
 </script>
 
-<body>
+<body background="rem.jpg">
 <div class="container">
     <div class="row">
         <div class="col-lg-12">
