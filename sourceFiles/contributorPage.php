@@ -44,7 +44,7 @@ include 'master.php';
                         <br>
                         <br>
 
-                        <form method="post" action="healthyLiving.php" style="border: solid lightgray; width: 250px">
+                        <form method="post" action="healthyLiving.php">
                             Enter Text:
                             <br>
                             <input type="text" name="title" placeholder="title"/></br>
@@ -55,6 +55,47 @@ include 'master.php';
                         </form>
 
                     </div>
+                <div class="col-lg-12">
+                    <h2>Edit Article</h2>
+                    <i>Edit an existing article below!</i>
+                    <br>
+                    <br>
+
+                    <form method="post" action="healthyLiving.php">
+                        Select Article to Edit:
+                        <br>
+                        <select>
+                            <?php
+                            include('dbconnect.php');
+                            /* this script loads the article the user clicked on.*/
+
+                            $sql = "SELECT * FROM port_articles";
+                            $result = $db->query($sql);
+
+                            if ($result->num_rows > 0) {
+                                // output data of each row
+                                while ($row = $result->fetch_assoc()) {
+                                    echo '<option value='.$row["title"].'>'.$row["title"].'</option>';
+                                }
+                            }
+                            else {
+                                echo "0 results";
+                            }
+                            $db->close();
+
+                            ?>
+                        </select>
+                        <br>
+                        Enter Text Here:
+                        <br>
+                        <input type="text" name="title" placeholder="title"/></br>
+                        <br>
+                        <textarea name="text" placeholder="description"></textarea></br>
+                        <br>
+                        <input type="submit" name="submit"/>
+                    </form>
+
+                </div>
                 </div>
         </div>
     </div>
