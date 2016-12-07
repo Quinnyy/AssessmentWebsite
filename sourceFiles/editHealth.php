@@ -2,6 +2,7 @@
 include('dbconnect.php');
 
 $type = $_POST['type'];
+echo "Test";
 
 if($type=="insert") {
     $sql = "INSERT INTO port_articles (title, text) VALUES ('" . $_POST['title'] . "', '" . $_POST['desc'] . "')";
