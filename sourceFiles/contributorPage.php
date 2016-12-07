@@ -114,8 +114,8 @@ include 'master.php';
 
     function insert()
     {
-        var title = $('#titleEdit').val();
-        var desc = $('#textEdit').val();
+        var title = $('#title').val();
+        var desc = $('#text').val();
         var type = "insert"
 
         $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
@@ -127,8 +127,8 @@ include 'master.php';
 
     function edit()
     {
-        var title = $('#title').val();
-        var desc = $('#text').val();
+        var title = $('#titleEdit').val();
+        var desc = $('#textEdit').val();
         var type = "edit"
         var oldTitle = $('#oldTitle').val();
 
