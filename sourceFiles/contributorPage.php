@@ -135,6 +135,7 @@ include 'master.php';
                     <br>
                     <br>
                     <input type="button" value="Delete" onclick="delete();"/>
+                    </form>
 
         </div>
     </div>
