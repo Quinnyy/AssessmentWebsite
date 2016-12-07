@@ -68,7 +68,7 @@ include 'master.php';
                     <form>
                         Select Article to Edit:
                         <br>
-                        <select name = "oldTitle">
+                        <select name = "oldTitle" id="oldTitle">
                             <?php
                             include('dbconnect.php');
                             /* this script loads the article the user clicked on.*/
@@ -130,7 +130,7 @@ include 'master.php';
         var title = $('#titleEdit').val();
         var desc = $('#textEdit').val();
         var type = "edit"
-        var oldTitle = $('#oldTitle').val();
+        var oldTitle = document.getElementById("oldTitle").value;
 
         $.post('editHealth.php',{title:title,desc:desc,type:type,oldTitle:oldTitle}, function(data)
             {
