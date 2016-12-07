@@ -2,7 +2,7 @@
 include('dbconnect.php');
 
 $type = $_POST['type'];
-echo "Test";
+
 
 if($type=="insert") {
     $sql = "INSERT INTO port_articles (title, text) VALUES ('" . $_POST['title'] . "', '" . $_POST['desc'] . "')";
@@ -29,7 +29,7 @@ if($type=="edit")
 
 if($type=="delete")
 {
-    echo "Test";
+    echo $_POST['toDelete'];
     $sql = "DELETE from port_articles WHERE title='".$_POST['toDelete']."'";
 
     if ($db->query($sql) === TRUE)
