@@ -2,18 +2,15 @@
 include('dbconnect.php');
 
 $type = $_POST['type'];
-echo $type;
-if($type=="insert")
-{
-    $sql = "INSERT INTO port_articles (title, text) VALUES ('".$_POST['title']."', '".$_POST['desc']."')";
-    if ($db->query($sql) === TRUE)
-    {
+
+if($type=="insert") {
+    $sql = "INSERT INTO port_articles (title, text) VALUES ('" . $_POST['title'] . "', '" . $_POST['desc'] . "')";
+    if ($db->query($sql) === TRUE) {
         echo "Article Added, thank you";
-    }
-    else {
+    } else {
         echo "Error: " . $sql . "<br>" . $db->error;
     }
-
+}
 
 if($type=="edit")
 {
@@ -29,7 +26,7 @@ if($type=="edit")
 }
 
 
-}
+
 
 ?>
 
