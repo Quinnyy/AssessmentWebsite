@@ -1,6 +1,6 @@
 <?php
 include('dbconnect.php');
-
+echo "TEST";
 $type = $_POST['type'];
 
 if($type=="insert")
