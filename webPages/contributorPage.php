@@ -1,24 +1,24 @@
 <?php
-include 'master.php';
+include '../navBar/master.php';
 ?>
 
 <html xmlns="http://www.w3.org/1999/html">
-    <link href="..CSS/bootstrap.min.css" rel="stylesheet" />
+    <link href="../CSS/bootstrap.min.css" rel="stylesheet" />
     <link href="../CSS/half-slider.css" rel="stylesheet" />
     <link href="../CSS/healthPage.css" rel="stylesheet" />
-    <link href="onClick.js">
+
 
     <header id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="item active">
-                <div class="fill" style="background-image: url('../Images/train.jpg')";></div>
+                <div class="fill" style="background-image: url('../Images/train.jpg')"></div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image: url('../Images/rain.jpg')";></div>
+                <div class="fill" style="background-image: url('../Images/rain.jpg')"></div>
 
             </div>
             <div class="item">
-                <div class="fill" style="background-image: url('../Images/tree.jpg')";></div>
+                <div class="fill" style="background-image: url('../Images/tree.jpg')"></div>
 
             </div>
         </div>
