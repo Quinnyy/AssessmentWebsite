@@ -153,7 +153,7 @@ include 'master.php';
     {
         var title = $('#title').val();
         var desc = $('#text').val();
-        var type = "insert"
+        var type = "insert";
 
         $.post('editHealth.php',{title:title,desc:desc,type:type}, function(data)
             {
