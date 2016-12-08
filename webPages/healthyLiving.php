@@ -4,28 +4,28 @@ include 'master.php';
 
 <!DOCTYPE html>
 <html lang="en">
-<link href="bootstrap.min.css" rel="stylesheet" />
-<link href="half-slider.css" rel="stylesheet" />
-<link href="healthPage.css" rel="stylesheet" />
+<link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+<link href="../CSS/half-slider.css" rel="stylesheet" />
+<link href="../CSS/healthPage.css" rel="stylesheet" />
 
 <header id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
         <div class="item active">
-            <div class="fill" style="background-image: url('gym-wallpaper-workout.jpg')"></div>
+            <div class="fill" style="background-image: url('../Images/gym-wallpaper-workout.jpg')"></div>
         </div>
         <div class="item">
-            <div class="fill" style="background-image: url('healthyfood.jpg')"></div>
+            <div class="fill" style="background-image: url('../Images/healthyfood.jpg')"></div>
 
         </div>
         <div class="item">
-            <div class="fill" style="background-image: url('hills.jpg')"></div>
+            <div class="fill" style="background-image: url('../Images/hills.jpg')"></div>
 
         </div>
     </div>
 </header>
 
-<script src="jquery.js"></script>
-<script src="bootstrap.min.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
 
 <script>
     $('.carousel').carousel({
